@@ -1,0 +1,11 @@
+{
+  "name": "sample-express",
+  "version": "1.0.0",
+  "description": "Exercise 1 from The Complete Developer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Vitez",
+  "license": "ISC"
+}
