@@ -1,0 +1,5 @@
+# Node.js
+node_modules/
+
+# Micro text editor logs (and other generic logs)
+log.txt
