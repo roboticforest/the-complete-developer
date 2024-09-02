@@ -7,6 +7,8 @@ const port = 3000;
 server.get("/", function (req, res) {
     let body = "<h1>HOME PAGE</h1>";
     body += "<a href='/hello'>Hello.</a>";
+    body += "<br>";
+    body += "<a href='/api/names'>Names List.</a>";
     res.send(body);
 });
 
