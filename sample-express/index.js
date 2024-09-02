@@ -22,7 +22,7 @@ server.get("/hello", function (req, res) {
 server.get("/api/names", async function (req, res) {
     let response;
     try {
-        response = await routeAPINames(requ, res);
+        response = await routeAPINames(req, res);
     } catch (error) {
         console.log(error);
     }
