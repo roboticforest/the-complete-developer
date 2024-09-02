@@ -13,10 +13,6 @@ server.get("/", function (req, res) {
 });
 
 server.get("/hello", function (req, res) {
-    // let body = "<h1>Hello World!</h1>";
-    // body += "<p>Greetings.</p>";
-    // body += "<p>Warmest regards.</p>";
-    // res.send(body);
     const response = routeHello(req, res);
     res.send(response);
 });

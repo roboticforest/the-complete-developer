@@ -1,6 +1,11 @@
 import fetch from "node-fetch";
 
-const routeHello = () => "Hello World!";
+const routeHello = () => {
+    let body = "<h1>Hello World!</h1>";
+    body += "<p>Greetings.</p>";
+    body += "<p>Warmest regards.</p>";
+    return body;
+};
 
 const routeAPINames = async () => {
     const url = "https://www.usemodernfullstack.dev/api/v1/users";
