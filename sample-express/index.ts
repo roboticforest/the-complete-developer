@@ -32,7 +32,7 @@ server.get(
     });
 
 server.get(
-    "api/weather/:zipcode",
+    "/api/weather/:zipcode",
     function (req: Request, res: Response): void {
         const response = routeWeather({ zipcode: req.params.zipcode });
         res.send(response);
