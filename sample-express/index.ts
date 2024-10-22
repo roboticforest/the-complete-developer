@@ -9,6 +9,8 @@ server.get("/", function (req, res) {
     body += "<a href='/hello'>Hello.</a>";
     body += "<br>";
     body += "<a href='/api/names'>Names List.</a>";
+    body += "<br>";
+    body += "<a href='/api/weather/12345'>Weather.</a>";
     res.send(body);
 });
 
